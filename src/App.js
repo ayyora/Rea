@@ -1,7 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+import menus from "./dummy-data";
+
+export default function App() {
+  const [total, setTotal] = useState(0);
+  const [purchasedItem, setPurchasedItem] = useState(0);
+  const [cart, setCart] = useState([]);
+
+  const addToCart = (id) => {};
+
+  const decreaseCartAmount = (id) => {};
+
+  const increaseCartAmount = (id) => {};
+
   return (
     <div className="App">
       <header className="App-header">
